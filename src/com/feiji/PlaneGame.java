@@ -162,7 +162,7 @@ public class PlaneGame extends JPanel implements Runnable {
 			
 
 			private boolean bang(Bullet b2) {
-				int index = -1;// 琛ㄧず琚鍒扮殑椋炶鐗╃殑涓嬫爣
+				int index = -1;// 
 				for (int i = 0; i < flys.length; i++) {
 					FlyObject ufo = flys[i];
 					if (ufo.shot(b2)) {
